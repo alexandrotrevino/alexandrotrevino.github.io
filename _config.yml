@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Alexandro Trevino"
+title: "Alexandro E. Trevino"
 description: "Projects, research, and writings"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://alexandrotrevino.github.io"
