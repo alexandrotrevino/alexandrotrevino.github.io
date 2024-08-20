@@ -21,7 +21,7 @@ title: "Alexandro E. Trevino"
 description: "Projects, research, and writings"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://alexandrotrevino.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/assets/images/bowtie.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -38,7 +38,8 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: atrev_bio
+
 
 # Liquid
 liquid:
