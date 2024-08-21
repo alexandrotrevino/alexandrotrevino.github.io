@@ -6,4 +6,4 @@ collection: publications
 entries_layout: grid
 ---
 
-Content
+Sample document listing for the collection `_recipes`
