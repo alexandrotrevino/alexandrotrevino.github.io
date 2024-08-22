@@ -22,6 +22,10 @@
       <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
+  {% if entry.description %}
+    {% assign entry_description = entry.description %}
+    <p>{{ project.description | markdownify }}</p> <!-- Add this line to include the description -->
+  {% endif %}
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}

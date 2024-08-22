@@ -2,10 +2,10 @@
 title: "Chromatin accessibility dynamics in a model of human forebrain development"
 layout: page
 image:
-  path: /assets/images/Trevino-2020-Science-img01.png
+  path: /assets/images/Trevino-2020-Science-img03.png
   thumbnail: /assets/images/Trevino-2020-Science-img02.png
-  caption: Immunofluorescence and chromatin accessibility profiles from human neural organoids.
-tags: 
+  caption: Chromatin accessibility profiles from human neural organoids.
+description: "Trevino, Sinnott-Armstrong, & Andersen et al. 2020, Science"
 ---
 
 [Download PDF](https://www.dropbox.com/scl/fi/qu0iyurfxx3c9otlnnwmm/Trevino-et-al.-2020-Chromatin-accessibility-dynamics-in-a-model-of-hum.pdf?rlkey=yczr4ucoe310a7i0h8avw5kjk&st=7n2waoma&dl=0)

@@ -17,6 +17,9 @@ layout: default
         {% else %}
           <h1 id="page-title" class="page-title">{{ title }}</h1>
         {% endif %}
+        {% if page.description %}
+          <h3 id="page-description" class="page-description">{{ description }}</h3>
+        {% endif %}
       </header>
       <div class="page-content">
         {{ content }}

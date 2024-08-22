@@ -3,7 +3,6 @@ title: Publications
 layout: collection
 permalink: /publications/
 collection: publications
-entries_layout: grid
+entries_layout: list
+sort_by: date
 ---
-
-Sample document listing for the collection `_recipes`
