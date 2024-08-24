@@ -1,8 +1,17 @@
 ---
 title: Publications
-layout: collection
+layout: page
 permalink: /publications/
-collection: publications
-entries_layout: list
-sort_by: date
 ---
+
+<!-- publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
