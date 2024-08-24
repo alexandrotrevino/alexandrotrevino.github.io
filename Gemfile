@@ -32,3 +32,6 @@ group :other_plugins do
     gem 'httparty'
 end
 
+gem 'csv'
+gem 'observer'
+gem 'base64'
