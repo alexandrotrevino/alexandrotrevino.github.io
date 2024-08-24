@@ -3,7 +3,6 @@ layout: home
 limit: 10
 show_excerpts: true
 entries_layout: list
-share: true
 ---
 
 Multidisciplinary scientist, mentor, and group leader with 15+ years of experience studying gene regulation, neural development, and oncology. Consistent high scientific impact at every career stage, including accumulating over 12,000 citations from 20+ peer-reviewed articles and directing research for a $200M early-stage company. Bridge-builder between research and engineering; laboratory and computational biology; academia and industry. Thought leader and strategist with a special dedication to connecting and motivating technical experts across fields. 
