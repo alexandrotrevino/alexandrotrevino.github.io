@@ -2,8 +2,8 @@
 title: "Fugue States"
 layout: page
 image:
-  path: .png
-  thumbnail: .png
+  path: 
+  thumbnail: 
 date: 2023-12-09
 ---
 
