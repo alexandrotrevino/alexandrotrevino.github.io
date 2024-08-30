@@ -103,6 +103,18 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Google Scholar 
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=z7HDsuAAAAAJ&sortby=pubdate 
+    icon: ai ai-google-scholar-square 
+  - title: Email 
+    url: mailto:alexandro.trevino@gmail.com 
+    icon: fa fa-envelope-square 
+  - title: GitHub 
+    url: https://github.com/alexandrotrevino/ 
+    icon: fab fa-github-square 
+  - title: Twitter 
+    url: x.com/atrev_bio 
+    icon: fab fa-twitter-square 
+  - title: LinkedIn 
+    url: https://www.linkedin.com/in/alexandro-trevino-a69ab08b/ 
+    icon: fab fa-linkedin
