@@ -1,9 +1,7 @@
 ---
 title: Publications
-layout: collection
+layout: page
 permalink: /publications/
-collection: publications
-entries_layout: grid
 ---
 
-Content
+{% bibliography %}
