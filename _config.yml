@@ -79,6 +79,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll/scholar
+
+# Jekyll-Scholar
+scholar:
+  style: apa
+  source: ./
+  bibliography: papers.bib
+  sort_by: year,month
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography_template: bibliography_template
 
 # Front Matter Defaults
 defaults:
