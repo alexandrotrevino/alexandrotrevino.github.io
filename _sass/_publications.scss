@@ -1,0 +1,283 @@
+/* ==========================================================================
+   Bibliography & Publications
+   ========================================================================== */
+
+.publications {
+  margin-top: 2rem;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    color: #888;
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  h2.bibliography {
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+
+      .preview {
+      }
+
+      .row {
+        display: flex;
+        padding: 10px 0;
+        position: relative;
+      }
+
+      .row::after {
+        content: '';
+        display: block;
+        width: 80%; /* Adjust the width as needed */
+        height: 1px; /* Border thickness */
+        background-color: #ccc; /* Border color */
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+      }
+
+      .abbr {
+        margin-bottom: 0.5rem;
+
+        abbr {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          margin-bottom: 0.5rem;
+
+          a {
+            color: white;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        .award {
+          color: var(--global-theme-color) !important;
+          border: 1px solid var(--global-theme-color);
+        }
+      }
+
+      .title {
+        font-weight: bolder;
+      }
+
+      .author {
+        a {
+          margin-bottom: 1rem;
+
+          &:hover {
+            border-bottom-style: solid;
+            text-decoration: none;
+          }
+        }
+
+        > em {
+          border-bottom: 1px solid;
+          font-style: normal;
+          font-weight: bold;
+        }
+
+        > span.more-authors {
+          color: var(--global-text-color-light);
+          border-bottom: 1px dashed var(--global-text-color-light);
+          cursor: pointer;
+
+          &:hover {
+            color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
+          }
+        }
+      }
+
+      .links {
+        a.btn {
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+
+          &:hover {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+        }
+        a.award.btn {
+          border-color: var(--global-highlight-color);
+        }
+      }
+
+      .badges {
+        padding-bottom: 0.5rem;
+        span {
+          display: inline-block;
+          color: $yiq-contrasted-dark-default;
+          height: 100%;
+          padding-right: 0.5rem;
+          vertical-align: middle;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .hidden {
+        font-size: 0.875rem;
+        max-height: 0px;
+        overflow: hidden;
+        text-align: justify;
+        transition-property: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+        }
+
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
+      }
+
+      .hidden.open {
+        max-height: 100em;
+        transition-property: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+      }
+
+      div.abstract.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
+    }
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.award.hidden.open {
+      border-color: var(--global-highlight-color);
+    }
+  }
+}
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.publication-entry {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+.publication-image {
+    flex: 0 0 200px;
+}
+.publication-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.publication-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.publication-tag {
+    background-color: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+.publication-details {
+    flex: 1;
+}
+.publication-title {
+    margin-bottom: 0.25rem;
+    font-family: $title-font-family;
+    font-weight: $entry-title-weight;
+    font-style: regular;
+    word-wrap: break-word; /* break long words that could overflow */
+    font-size: 1.2rem;
+  }
+.publication-authors {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+
+    a {
+        &:hover {
+        border-bottom-style: solid;
+        text-decoration: none;
+        }
+    }
+
+    > em {
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+.publication-journal {
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+.publication-date {
+    color: #888;
+    margin-bottom: 1rem;
+}
+.publication-badges {
+    display: flex;
+    gap: 0.5rem;
+}
+.publication-badge {
+    background-color: #007bff;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.publication-metrics {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
