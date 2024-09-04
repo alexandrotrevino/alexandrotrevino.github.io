@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Alexandro E. Treviño"
-description: "Projects, research, and writings"
+description: "Research, projects, and writings"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://alexandrotrevino.github.io"
 logo: "/assets/images/bowtie.jpg" # path of site logo, e.g. "/images/logo.png"
@@ -33,6 +33,8 @@ google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
+    weights: "400,400i,700,700i"
+  - name: "Source Serif 4"
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
@@ -91,6 +93,8 @@ scholar:
   group_by: year
   group_order: descending
   bibliography_template: bibliography_template
+  last_name: Trevino
+  first_name: Alexandro E
 
 # Front Matter Defaults
 defaults:
