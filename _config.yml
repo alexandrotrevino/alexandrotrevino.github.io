@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Alexandro E. Treviño"
-description: "Projects, research, and writings"
+description: "Research, projects, and writings"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://alexandrotrevino.github.io"
 logo: "/assets/images/bowtie.jpg" # path of site logo, e.g. "/images/logo.png"
@@ -34,12 +34,19 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
+  - name: "Source Serif 4"
+    weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: atrev_bio
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Liquid
 liquid:
@@ -79,6 +86,20 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll/scholar
+
+# Jekyll-Scholar
+scholar:
+  style: apa
+  source: ./
+  bibliography: papers.bib
+  sort_by: year,month
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography_template: bibliography_template
+  last_name: Trevino
+  first_name: Alexandro E
 
 # Front Matter Defaults
 defaults:
@@ -103,6 +124,18 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Google Scholar 
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=z7HDsuAAAAAJ&sortby=pubdate 
+    icon: ai ai-google-scholar-square 
+  - title: Email 
+    url: mailto:alexandro.trevino@gmail.com 
+    icon: fa fa-envelope-square 
+  - title: GitHub 
+    url: https://github.com/alexandrotrevino/ 
+    icon: fab fa-github-square 
+  - title: Twitter 
+    url: https://x.com/atrev_bio 
+    icon: fab fa-twitter-square 
+  - title: LinkedIn 
+    url: https://www.linkedin.com/in/alexandro-trevino-a69ab08b/ 
+    icon: fab fa-linkedin

@@ -1,9 +1,17 @@
 ---
 title: Publications
-layout: collection
+layout: page
 permalink: /publications/
-collection: publications
-entries_layout: grid
 ---
 
-Content
+<div class="site-description">
+    <p style="margin-bottom: 0"># = Co-correspondence</p>
+    <p>* = Equal Contribution</p>
+</div>
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
+

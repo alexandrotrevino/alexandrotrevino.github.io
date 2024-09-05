@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: bold;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: light;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: black;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: extralight;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSerifPro';
+    font-style: semibold;
+    font-weight: 400;
+    src: url('/assets/source-serif-pro/SourceSerifPro-SemiBold.ttf') format('truetype');
+}

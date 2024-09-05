@@ -10,3 +10,7 @@ Multidisciplinary scientist, mentor, and group leader with 15+ years of experien
 Currently I am Head of Research at [**Enable Medicine**](https://enablemedicine.com), a tech-bio company. I also co-own **Biographi**, a small consulting firm that connects companies and investors to biological expertise. 
 
 I am led by curiousity and wonder in personal as well as professional life. My [projects](./projects/) and pastimes include making music and musical instruments, reading, and (soon) fatherhood. I live in Lexington, KY with my wife Blaize and our dog Oso. Fluent in Spanish and English.  
+
+**Contact:**
+
+alexandro.trevino [at] gmail 
