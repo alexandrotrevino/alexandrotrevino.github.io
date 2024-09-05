@@ -2,12 +2,26 @@
 ---
 
 <script src="/assets/js/toggle.js"></script>
+<script src="/assets/js/keyword-styles.js"></script>
 
 <!-- Each entry is a row class -->
 <div class="row">
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if entry.altmetric %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <!-- Keywords -->
+    <div class="keywords">
+      {% if entry.keywords %}
+        {% assign keywords = entry.keywords | split: '; ' %}
+        <!-- Split the comma-separated keywords into an array -->
+
+        {% for keyword in keywords %}
+          <span class="keyword" data-keyword="{{ keyword | downcase | strip }}">{{ keyword | downcase | strip }}</span>
+          <!-- Create a span element for each keyword, trimming any extra spaces -->
+
+        {% endfor %}
+      {% endif %}
+    </div>
     <!-- Title -->
     <div class="publication-title">{{ entry.title }}</div>
     <!-- Authors -->

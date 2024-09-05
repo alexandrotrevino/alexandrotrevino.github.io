@@ -130,6 +130,20 @@
         }
       }
 
+      .keywords {
+        margin-bottom: 0.25rem;
+
+        .keyword {
+          font-size: 0.75rem;
+          color: grey;
+          border: 1px solid grey;
+          padding: 0.1rem 0.4rem;
+          margin-left: 0;
+          display: inline-block;
+          border-radius: 3px;
+        }
+      }
+
       .badges {
         padding-bottom: 0.5rem;
         span {
