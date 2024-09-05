@@ -87,6 +87,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll/scholar
+  - jekyll-remote-theme
 
 # Jekyll-Scholar
 scholar:
