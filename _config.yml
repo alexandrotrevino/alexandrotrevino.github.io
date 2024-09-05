@@ -42,6 +42,11 @@ disqus:
 twitter:
   username: atrev_bio
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Liquid
 liquid:
