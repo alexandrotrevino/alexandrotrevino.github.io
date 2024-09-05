@@ -7,4 +7,3 @@ _site/
 .bundle/
 vendor/
 .Rhistory
-Gemfile.lock
