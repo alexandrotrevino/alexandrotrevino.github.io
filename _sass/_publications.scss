@@ -5,14 +5,6 @@
 .publications {
   margin-top: 2rem;
 
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
   h2 {
     margin-bottom: 1rem;
     color: #888;
@@ -112,8 +104,8 @@
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: grey;
+          border: 1px solid grey;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -121,10 +113,18 @@
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: #000;
+            border-color: transparent;
+            box-shadow: 0 0 0 2px grey;
           }
         }
+
+        a.btn.clicked {
+          color: #000;
+          border-color: transparent;
+          box-shadow: 0 0 0 2px black;
+        }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -254,9 +254,9 @@
     }
 }
 .publication-journal {
-    color: #666;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
 }
+
 .publication-date {
     color: #888;
     margin-bottom: 1rem;
