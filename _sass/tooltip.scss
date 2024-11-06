@@ -1,0 +1,16 @@
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.tooltip-link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0073e6;
+}
