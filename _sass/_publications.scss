@@ -36,6 +36,10 @@
         position: relative;
       }
 
+      .row.hidden {
+        display: none;
+      }
+
       .row::after {
         content: '';
         display: block;
@@ -294,4 +298,32 @@
     align-items: center;
     padding: 1rem;
     gap: 1rem;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.filter-btn {
+  color: grey;
+  border: 1px solid grey;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 0;
+
+  &:hover {
+    color: #000;
+    border-color: transparent;
+    box-shadow: 0 0 0 2px grey;
+  }
+}
+
+.filter-btn.clicked {
+color: #000;
+border-color: transparent;
+box-shadow: 0 0 0 2px black;
 }

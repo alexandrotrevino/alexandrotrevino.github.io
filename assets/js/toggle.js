@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
   $("a.abstract").unbind().click(function () {
     console.log('Button clicked!'); // Debugging statement
-    $(this).toggleClass('clicked')
+    $(this).toggleClass('clicked');
     // Get the data-entry-id of the clicked button
     const entryKey = this.getAttribute('data-entry-key');
-    console.log(entryKey)
+    console.log(entryKey);
 
     // Find the corresponding abstract text block with the same data-entry-id
     const abstractText = document.querySelector(`.abstract.hidden[data-entry-key="${entryKey}"]`);
@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Toggle between the 'hidden' and 'open' classes
     if (abstractText.classList.contains('open')) {
       abstractText.classList.remove('open');
-      console.log('remove open')
+      console.log('remove open');
       console.log(abstractText.classList);
     } else {
       abstractText.classList.add('open');
-      console.log('open')
+      console.log('open');
       console.log(abstractText.classList);
     }
 
