@@ -13,3 +13,4 @@ The vast majority of research focuses on a few common animal models, in vitro ce
 
 1. applying proven experimental methods towards comparative studies
 2. curiousity-driven research on non-model organisms and ecosystems
+3. leveraging genome assemblies from across the animal world
