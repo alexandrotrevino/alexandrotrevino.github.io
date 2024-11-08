@@ -5,7 +5,9 @@ show_excerpts: true
 entries_layout: list
 ---
 
-Multidisciplinary scientist, mentor, and group leader with 15+ years of experience studying gene regulation, neural development, and oncology. Consistent high scientific impact at every career stage, including accumulating over 12,000 citations from 20+ peer-reviewed articles and directing research for a $200M early-stage company. Bridge-builder between research and engineering; laboratory and computational biology; academia and industry. Thought leader and strategist with a special dedication to connecting and motivating technical experts across fields. 
+I study the genomic control of development with a particular interest in the physical forces governing gene regulation across life.
+
+My career spans topics in gene regulation, brain development, and cancer biology. As a researcher, mentor, and group leader, I am dedicated to connecting and motivating technical experts across disciplines, building bridges between laboratory and computational biology; academia and industry; science and engineering. 
 
 Currently I am Head of Research at [**Enable Medicine**](https://enablemedicine.com), a tech-bio company. I also co-own **Biographi**, a boutique consulting firm that connects companies and investors to biological expertise. 
 
