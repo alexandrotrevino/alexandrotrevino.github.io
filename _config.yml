@@ -20,7 +20,7 @@ locale: en-US
 title: "Alexandro E. Treviño"
 description: "Research, projects, and writings"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: "https://alexandrotrevino.github.io"
+url: "https://alexandrotrevino.com"
 logo: "/assets/images/bowtie.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
