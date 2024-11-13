@@ -208,6 +208,16 @@
         border-color: var(--global-text-color);
       }
     }
+
+
+    li:not(:last-child)::after {
+      content: "";
+      display: block;
+      border-top: 1px solid #ccc;
+      width: 80%;
+      margin: 8px auto;
+    }
+  
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
