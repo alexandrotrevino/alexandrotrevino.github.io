@@ -223,6 +223,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-remote-theme
   jekyll-scholar
+  jekyll-seo-tag
   jekyll-theme-so-simple
 
 BUNDLED WITH
