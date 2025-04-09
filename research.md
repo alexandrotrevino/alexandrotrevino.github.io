@@ -17,6 +17,6 @@ My research experience spans topics in gene regulation, neuroscience, and drug d
 <div class="h2 entry-title" style="margin-bottom: 2rem">Values</div>
 \- __Curiosity First:__&nbsp;&nbsp;&nbsp;&nbsp;follow rabbit holes -- take risks -- try new ideas -- leave time to think
 \- __Active Bias:__&nbsp;&nbsp;&nbsp;&nbsp;be hands-on when learning -- design hypothesis-driven experiments
-\- __More to Learn:__&nbsp;&nbsp;&nbsp;&nbsp;ask questions -- question results -- good experiments are more important than good results
-\- __Collectivism:__&nbsp;&nbsp;&nbsp;&nbsp;share opportunity -- lift others up -- promote flourishing
+\- __More to Learn:__&nbsp;&nbsp;&nbsp;&nbsp;ask questions -- question results -- good experiments > good results
+\- __Collectivism:__&nbsp;&nbsp;&nbsp;&nbsp;share opportunities -- lift others up -- promote flourishing
 <div class="row" style="margin-bottom: 3rem"> </div>
