@@ -4,7 +4,7 @@ layout: page
 show_excerpts: false
 image: 
   path: /assets/images/patients.png
-  thumbnail: /assets/images/patients.jpg
+  thumbnail: /assets/images/patients.png
 ---
 
 *Connecting molecular profiling to real-world patient experiences*
