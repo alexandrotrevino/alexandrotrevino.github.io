@@ -3,8 +3,8 @@ title: III. Patient Centric Drug Development
 layout: page
 show_excerpts: false
 image: 
-  path: /assets/images/dino_cover.png
-  thumbnail: /assets/images/dino_cover_thumbnail.jpg
+  path: /assets/images/patients.png
+  thumbnail: /assets/images/patients.jpg
 ---
 
 *Connecting molecular profiling to real-world patient experiences*
