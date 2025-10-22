@@ -15,8 +15,8 @@ I am interested how these properties connect to the development and evolution of
 My research experience spans topics in gene regulation, neuroscience, and drug development. Prior to graduate school, I helped to design and test landmark transcriptome and epigenome engineering tools in mammals, enabling optical control and genome-scale screening. During my Ph.D., I studied the development of the human cerebral cortex and explored general physical rules that govern gene regulation. Finally, I transitioned to a role at a startup biotechnology company, where I established and led a machine learning R&D group that has made substantial published contributions to topics in spatial biology data analysis.
 
 <div class="h2 entry-title" style="margin-bottom: 2rem">Values</div>
-\- __Curiosity First:__&nbsp;&nbsp;&nbsp;&nbsp;follow rabbit holes -- take risks -- try new ideas -- leave time to think
-\- __Active Bias:__&nbsp;&nbsp;&nbsp;&nbsp;be hands-on when learning -- design hypothesis-driven experiments
-\- __More to Learn:__&nbsp;&nbsp;&nbsp;&nbsp;ask questions -- question results -- good experiments > good results
-\- __Collectivism:__&nbsp;&nbsp;&nbsp;&nbsp;share opportunities -- lift others up -- promote flourishing
+__1. Curiosity First:__&nbsp;&nbsp;&nbsp;&nbsp;leave time to think -- follow rabbit holes -- take risks 
+__2. Active Bias:__&nbsp;&nbsp;&nbsp;&nbsp;be hands-on when learning -- design hypothesis-driven experiments
+__3. More to Learn:__&nbsp;&nbsp;&nbsp;&nbsp;ask questions -- good experiments > good results
+__4. Collectivism:__&nbsp;&nbsp;&nbsp;&nbsp;share opportunities -- lift others up -- promote flourishing
 <div class="row" style="margin-bottom: 3rem"> </div>
