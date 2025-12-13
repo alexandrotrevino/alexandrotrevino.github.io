@@ -25,3 +25,6 @@ __4. Collectivism:__&nbsp;&nbsp;&nbsp;&nbsp;share opportunities -- lift others u
 
 <div class="row" style="margin-bottom: 3rem"> </div>
 
+<div class="h2 entry-title" style="margin-bottom: 2rem">Themes</div>
+<div class="row" style="margin-bottom: 3rem"> </div>
+
