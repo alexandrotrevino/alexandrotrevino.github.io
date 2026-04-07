@@ -4,6 +4,8 @@
 
 .publications {
   margin-top: 2rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 
   h2 {
     margin-bottom: 1rem;
@@ -19,19 +21,29 @@
     text-align: center;
   }
 
+  .site-description {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 
       .row {
-        padding: 10px 0;
+        padding: 1.25rem 2rem;
 
         display: -webkit-flex;
         display: flex;
@@ -43,17 +55,18 @@
         justify-content: flex-start;
         -webkit-align-content: stretch;
         align-content: stretch;
-        -webkit-align-items: left;
-        align-items: left;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
       }
 
       .entry {
         -webkit-order: 0;
         order: 0;
-        -webkit-flex: 0 1 100%;
-        flex: 0 1 100%;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
         -webkit-align-self: auto;
         align-self: auto;
+        min-width: 0;
         }
 
       .abbr {
@@ -112,19 +125,30 @@
       }
 
       .links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem;
+
+        &::before {
+          content: "Links:";
+          font-size: 1rem;
+          font-weight: 600;
+          color: #888;
+          flex: 0 0 6.5rem;
+        }
+
         a.btn {
-          color: grey;
-          border: 1px solid grey;
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          font-size: 0.8rem;
+          color: #888;
+          border: 1px solid #bbb;
+          padding: 0.2rem 0.6rem;
+          border-radius: 4px;
 
           &:hover {
             color: #000;
             border-color: transparent;
-            box-shadow: 0 0 0 2px grey;
+            box-shadow: 0 0 0 2px #aaa;
           }
         }
 
@@ -140,16 +164,28 @@
       }
 
       .keywords {
+        margin-top: 0.35rem;
         margin-bottom: 0.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem;
+
+        &::before {
+          content: "Keywords:";
+          font-size: 1rem;
+          font-weight: 600;
+          color: #888;
+          flex: 0 0 6.5rem;
+        }
 
         .keyword {
-          font-size: 0.75rem;
-          color: grey;
-          border: 1px solid grey;
-          padding: 0.1rem 0.4rem;
-          margin-left: 0;
+          font-size: 0.8rem;
+          color: #888;
+          border: 1px solid #bbb;
+          padding: 0.2rem 0.6rem;
           display: inline-block;
-          border-radius: 3px;
+          border-radius: 4px;
         }
       }
 
@@ -209,15 +245,6 @@
       }
     }
 
-
-    li:not(:last-child)::after {
-      content: "";
-      display: block;
-      border-top: 1px solid #ccc;
-      width: 80%;
-      margin: 8px auto;
-    }
-  
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
@@ -267,12 +294,14 @@
     font-family: $title-font-family;
     font-weight: $entry-title-weight;
     font-style: regular;
-    word-wrap: break-word; /* break long words that could overflow */
+    word-wrap: break-word;
     font-size: 1.2rem;
   }
 .publication-authors {
     margin-top: 0.25rem;
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.04em;
 
     a {
         &:hover {
@@ -285,9 +314,15 @@
         font-style: normal;
         font-weight: bold;
     }
+
+    .author-name {
+        white-space: nowrap;
+    }
 }
 .publication-journal {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.04em;
 }
 
 .publication-date {
@@ -309,12 +344,16 @@
 .publication-metrics {
     -webkit-order: 1;
     order: 1;
-    -webkit-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    align-self: auto;
-    justify-content: space-between;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0.5rem;
+    border-left: 1px solid #e0e0e0;
+    padding: 0.75rem 0.75rem 0.75rem 1.25rem;
+    margin-left: 0.75rem;
 }

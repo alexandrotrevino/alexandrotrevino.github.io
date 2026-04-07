@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
+    base64 (0.3.0)
     bibtex-ruby (6.1.0)
       latex-decode (~> 0.0)
       racc (~> 1.7)
@@ -19,6 +20,7 @@ GEM
       rexml
     csl-styles (1.0.1.11)
       csl (~> 1.0)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -122,9 +124,11 @@ GEM
       racc (~> 1.7)
     net-http (0.4.1)
       uri
+    observer (0.1.2)
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -161,6 +165,8 @@ GEM
     sass-embedded (1.78.0-riscv64-linux-gnu)
       google-protobuf (~> 4.27)
     sass-embedded (1.78.0-riscv64-linux-musl)
+      google-protobuf (~> 4.27)
+    sass-embedded (1.78.0-x64-mingw-ucrt)
       google-protobuf (~> 4.27)
     sass-embedded (1.78.0-x86-cygwin)
       google-protobuf (~> 4.27)
@@ -207,6 +213,7 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x64-mingw-ucrt
   x86-cygwin
   x86-linux
   x86-linux-android
@@ -221,10 +228,16 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   jekyll-remote-theme
   jekyll-scholar
   jekyll-seo-tag
   jekyll-theme-so-simple
+  logger
+  observer
+  ostruct
 
 BUNDLED WITH
    2.5.18

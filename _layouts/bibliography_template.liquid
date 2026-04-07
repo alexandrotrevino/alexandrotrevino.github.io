@@ -9,19 +9,6 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="entry">
-    <!-- Keywords -->
-    <div class="keywords">
-      {% if entry.keywords %}
-        {% assign keywords = entry.keywords | split: '; ' %}
-        <!-- Split the comma-separated keywords into an array -->
-
-        {% for keyword in keywords %}
-          <span class="keyword" data-keyword="{{ keyword | downcase | strip }}">{{ keyword | downcase | strip }}</span>
-          <!-- Create a span element for each keyword, trimming any extra spaces -->
-
-        {% endfor %}
-      {% endif %}
-    </div>
     <!-- Title -->
     <div class="publication-title">{{ entry.title }}</div>
     <!-- Authors -->
@@ -40,17 +27,13 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last %}and&nbsp;{% endif -%}
+          {% if forloop.first == false %}, {% endif %}
+          {%- if forloop.last %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+          <em class="author-name">{{- author.first }} {{ author_last_html -}}</em>
         {%- else -%}
-          {{- author.first }}
-          {{ author_last_html -}}
+          <span class="author-name">{{- author.first }} {{ author_last_html -}}</span>
         {%- endif -%}
         {%- if forloop.last %}.&nbsp;{% endif -%}
       {% endfor %}
@@ -186,6 +169,16 @@
           href="{{ entry.url }}"
           class="btn btn-sm z-depth-0"
           role="button">URL</a>
+      {% endif %}
+    </div>
+
+    <!-- Keywords -->
+    <div class="keywords">
+      {% if entry.keywords %}
+        {% assign keywords = entry.keywords | split: '; ' %}
+        {% for keyword in keywords %}
+          <span class="keyword" data-keyword="{{ keyword | downcase | strip }}">{{ keyword | downcase | strip }}</span>
+        {% endfor %}
       {% endif %}
     </div>
 

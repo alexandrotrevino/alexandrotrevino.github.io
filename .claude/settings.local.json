@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)",
+      "Bash(powershell -Command \"[System.IO.File]::ReadAllText\\('c:\\\\\\\\Users\\\\\\\\alexa\\\\\\\\Documents\\\\\\\\alexandrotrevino.github.io\\\\\\\\_layouts\\\\\\\\bibliography_template.liquid'\\) | Select-String -Pattern 'Keywords' -Context 2,10 | Format-List\")"
+    ]
+  }
+}
