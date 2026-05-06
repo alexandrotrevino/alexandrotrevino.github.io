@@ -1,0 +1,7 @@
+---
+permalink: /robots.txt
+sitemap: false
+---
+User-agent: *
+Disallow: /preview/
+Disallow: /assets/pdfs/preview/

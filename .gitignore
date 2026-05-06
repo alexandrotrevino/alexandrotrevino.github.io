@@ -7,3 +7,7 @@ _site/
 .bundle/
 vendor/
 .Rhistory
+.claude/
+
+# Local-only PDFs that shouldn't be deployed
+assets/pdfs/*DO NOT SHARE*.pdf
